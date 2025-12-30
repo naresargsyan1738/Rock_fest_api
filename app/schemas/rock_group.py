@@ -1,7 +1,5 @@
 from pydantic import BaseModel
 
-
-class RockGroup(BaseModel):
+class RockGroupCreate(BaseModel):
     name: str
-    foundation_year: int
-    genre: str
+    country: str
